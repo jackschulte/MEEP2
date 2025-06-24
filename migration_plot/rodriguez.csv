@@ -1,0 +1,118 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Wed Jul  3 10:28:07 2024
+#
+# User preference: *
+#
+# CONSTRAINT:  where (default_flag = 1
+# CONSTRAINT:  and disc_facility like '%TESS%'
+# CONSTRAINT:  and pl_controv_flag = 0
+# CONSTRAINT:  and pl_refname like '%rodriguez%'
+# CONSTRAINT:  and pl_bmassjstr > 0.25
+# CONSTRAINT:  and pl_orbeccenstr not null)
+#
+# COLUMN pl_name:        Planet Name
+# COLUMN hostname:       Host Name
+# COLUMN default_flag:   Default Parameter Set
+# COLUMN sy_snum:        Number of Stars
+# COLUMN sy_pnum:        Number of Planets
+# COLUMN discoverymethod: Discovery Method
+# COLUMN disc_year:      Discovery Year
+# COLUMN disc_facility:  Discovery Facility
+# COLUMN soltype:        Solution Type
+# COLUMN pl_controv_flag: Controversial Flag
+# COLUMN pl_refname:     Planetary Parameter Reference
+# COLUMN pl_orbper:      Orbital Period [days]
+# COLUMN pl_orbpererr1:  Orbital Period Upper Unc. [days]
+# COLUMN pl_orbpererr2:  Orbital Period Lower Unc. [days]
+# COLUMN pl_orbperlim:   Orbital Period Limit Flag
+# COLUMN pl_orbsmax:     Orbit Semi-Major Axis [au]
+# COLUMN pl_orbsmaxerr1: Orbit Semi-Major Axis Upper Unc. [au]
+# COLUMN pl_orbsmaxerr2: Orbit Semi-Major Axis Lower Unc. [au]
+# COLUMN pl_orbsmaxlim:  Orbit Semi-Major Axis Limit Flag
+# COLUMN pl_rade:        Planet Radius [Earth Radius]
+# COLUMN pl_radeerr1:    Planet Radius Upper Unc. [Earth Radius]
+# COLUMN pl_radeerr2:    Planet Radius Lower Unc. [Earth Radius]
+# COLUMN pl_radelim:     Planet Radius Limit Flag
+# COLUMN pl_radj:        Planet Radius [Jupiter Radius]
+# COLUMN pl_radjerr1:    Planet Radius Upper Unc. [Jupiter Radius]
+# COLUMN pl_radjerr2:    Planet Radius Lower Unc. [Jupiter Radius]
+# COLUMN pl_radjlim:     Planet Radius Limit Flag
+# COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
+# COLUMN pl_bmasseerr1:  Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc.
+# COLUMN pl_bmasseerr2:  Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc.
+# COLUMN pl_bmasselim:   Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag
+# COLUMN pl_bmassj:      Planet Mass or Mass*sin(i) [Jupiter Mass]
+# COLUMN pl_bmassjerr1:  Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc.
+# COLUMN pl_bmassjerr2:  Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc.
+# COLUMN pl_bmassjlim:   Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag
+# COLUMN pl_bmassprov:   Planet Mass or Mass*sin(i) Provenance
+# COLUMN pl_orbeccen:    Eccentricity
+# COLUMN pl_orbeccenerr1: Eccentricity Upper Unc.
+# COLUMN pl_orbeccenerr2: Eccentricity Lower Unc.
+# COLUMN pl_orbeccenlim: Eccentricity Limit Flag
+# COLUMN pl_insol:       Insolation Flux [Earth Flux]
+# COLUMN pl_insolerr1:   Insolation Flux Upper Unc. [Earth Flux]
+# COLUMN pl_insolerr2:   Insolation Flux Lower Unc. [Earth Flux]
+# COLUMN pl_insollim:    Insolation Flux Limit Flag
+# COLUMN pl_eqt:         Equilibrium Temperature [K]
+# COLUMN pl_eqterr1:     Equilibrium Temperature Upper Unc. [K]
+# COLUMN pl_eqterr2:     Equilibrium Temperature Lower Unc. [K]
+# COLUMN pl_eqtlim:      Equilibrium Temperature Limit Flag
+# COLUMN ttv_flag:       Data show Transit Timing Variations
+# COLUMN st_refname:     Stellar Parameter Reference
+# COLUMN st_spectype:    Spectral Type
+# COLUMN st_teff:        Stellar Effective Temperature [K]
+# COLUMN st_tefferr1:    Stellar Effective Temperature Upper Unc. [K]
+# COLUMN st_tefferr2:    Stellar Effective Temperature Lower Unc. [K]
+# COLUMN st_tefflim:     Stellar Effective Temperature Limit Flag
+# COLUMN st_rad:         Stellar Radius [Solar Radius]
+# COLUMN st_raderr1:     Stellar Radius Upper Unc. [Solar Radius]
+# COLUMN st_raderr2:     Stellar Radius Lower Unc. [Solar Radius]
+# COLUMN st_radlim:      Stellar Radius Limit Flag
+# COLUMN st_mass:        Stellar Mass [Solar mass]
+# COLUMN st_masserr1:    Stellar Mass Upper Unc. [Solar mass]
+# COLUMN st_masserr2:    Stellar Mass Lower Unc. [Solar mass]
+# COLUMN st_masslim:     Stellar Mass Limit Flag
+# COLUMN st_met:         Stellar Metallicity [dex]
+# COLUMN st_meterr1:     Stellar Metallicity Upper Unc. [dex]
+# COLUMN st_meterr2:     Stellar Metallicity Lower Unc. [dex]
+# COLUMN st_metlim:      Stellar Metallicity Limit Flag
+# COLUMN st_metratio:    Stellar Metallicity Ratio
+# COLUMN st_logg:        Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN st_loggerr1:    Stellar Surface Gravity Upper Unc. [log10(cm/s**2)]
+# COLUMN st_loggerr2:    Stellar Surface Gravity Lower Unc. [log10(cm/s**2)]
+# COLUMN st_logglim:     Stellar Surface Gravity Limit Flag
+# COLUMN sy_refname:     System Parameter Reference
+# COLUMN rastr:          RA [sexagesimal]
+# COLUMN ra:             RA [deg]
+# COLUMN decstr:         Dec [sexagesimal]
+# COLUMN dec:            Dec [deg]
+# COLUMN sy_dist:        Distance [pc]
+# COLUMN sy_disterr1:    Distance [pc] Upper Unc
+# COLUMN sy_disterr2:    Distance [pc] Lower Unc
+# COLUMN sy_vmag:        V (Johnson) Magnitude
+# COLUMN sy_vmagerr1:    V (Johnson) Magnitude Upper Unc
+# COLUMN sy_vmagerr2:    V (Johnson) Magnitude Lower Unc
+# COLUMN sy_kmag:        Ks (2MASS) Magnitude
+# COLUMN sy_kmagerr1:    Ks (2MASS) Magnitude Upper Unc
+# COLUMN sy_kmagerr2:    Ks (2MASS) Magnitude Lower Unc
+# COLUMN sy_gaiamag:     Gaia Magnitude
+# COLUMN sy_gaiamagerr1: Gaia Magnitude Upper Unc
+# COLUMN sy_gaiamagerr2: Gaia Magnitude Lower Unc
+# COLUMN rowupdate:      Date of Last Update
+# COLUMN pl_pubdate:     Planetary Parameter Reference Publication Date
+# COLUMN releasedate:    Release Date
+#
+pl_name,hostname,default_flag,sy_snum,sy_pnum,discoverymethod,disc_year,disc_facility,soltype,pl_controv_flag,pl_refname,pl_orbper,pl_orbpererr1,pl_orbpererr2,pl_orbperlim,pl_orbsmax,pl_orbsmaxerr1,pl_orbsmaxerr2,pl_orbsmaxlim,pl_rade,pl_radeerr1,pl_radeerr2,pl_radelim,pl_radj,pl_radjerr1,pl_radjerr2,pl_radjlim,pl_bmasse,pl_bmasseerr1,pl_bmasseerr2,pl_bmasselim,pl_bmassj,pl_bmassjerr1,pl_bmassjerr2,pl_bmassjlim,pl_bmassprov,pl_orbeccen,pl_orbeccenerr1,pl_orbeccenerr2,pl_orbeccenlim,pl_insol,pl_insolerr1,pl_insolerr2,pl_insollim,pl_eqt,pl_eqterr1,pl_eqterr2,pl_eqtlim,ttv_flag,st_refname,st_spectype,st_teff,st_tefferr1,st_tefferr2,st_tefflim,st_rad,st_raderr1,st_raderr2,st_radlim,st_mass,st_masserr1,st_masserr2,st_masslim,st_met,st_meterr1,st_meterr2,st_metlim,st_metratio,st_logg,st_loggerr1,st_loggerr2,st_logglim,sy_refname,rastr,ra,decstr,dec,sy_dist,sy_disterr1,sy_disterr2,sy_vmag,sy_vmagerr1,sy_vmagerr2,sy_kmag,sy_kmagerr1,sy_kmagerr2,sy_gaiamag,sy_gaiamagerr1,sy_gaiamagerr2,rowupdate,pl_pubdate,releasedate
+TOI-1478 b,TOI-1478,1,1,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,10.18024900,0.00001500,-0.00001500,0,0.090300,0.001800,-0.001300,0,11.882,0.448,-0.437,0,1.060,0.040,-0.039,0,270.47333,16.52716,-14.93801,0,0.85100,0.05200,-0.04700,0,Mass,0.024000,0.032000,-0.017000,0,,,,,918,11,-11,0,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,,5597.00,83.00,-82.00,0,1.05,0.03,-0.03,0,0.95,0.06,-0.04,0,0.078,0.072,-0.066,0,[Fe/H],4.37,0.04,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,08h25m44.10s,126.4337428,-13d33m34.37s,-13.5595485,152.8920000,0.9150000,-0.9050000,10.7230000,0.0090000,-0.0090000,9.2010000,0.0210000,-0.0210000,10.6624000,0.0002170,-0.0002170,2021-02-25,2021-04,2021-03-04
+TOI-640 b,TOI-640,1,1,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,5.00377750,0.00000480,-0.00000480,0,0.066080,0.000980,-0.001100,0,19.851,0.673,-0.628,0,1.771,0.060,-0.056,0,279.69040,50.85280,-50.85280,0,0.88000,0.16000,-0.16000,0,Mass,0.050000,0.054000,-0.035000,0,,,,,1749,26,-30,0,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,,6460.00,130.00,-150.00,0,2.08,0.06,-0.06,0,1.54,0.07,-0.08,0,0.072,0.085,-0.076,0,[Fe/H],3.99,0.03,-0.04,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,06h38m56.30s,99.7345935,-36d38m46.07s,-36.6461300,341.9970000,2.8390000,-2.7940000,10.5100000,0.0060000,-0.0060000,9.2430000,0.0230000,-0.0230000,10.4006000,0.0002890,-0.0002890,2021-02-25,2021-04,2021-03-04
+TOI-2154 b,TOI-2154,1,1,1,Transit,2023,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,3.82408010,0.00000250,-0.00000250,0,0.051300,0.001100,-0.001300,0,16.287,0.594,-0.538,0,1.453,0.053,-0.048,0,292.40213,60.38740,-57.20911,0,0.92000,0.19000,-0.18000,0,Mass,0.117000,0.100000,-0.079000,0,,,,,1580,27,-27,0,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,,6280.00,160.00,-160.00,0,1.40,0.05,-0.04,0,1.23,0.08,-0.09,0,0.011,0.071,-0.059,0,[Fe/H],4.24,0.04,-0.05,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,04h44m06.76s,71.0281482,+84d21m51.35s,84.3642652,296.4600000,2.1740000,-2.1430000,11.0680000,0.0080000,-0.0080000,9.8500000,0.0250000,-0.0250000,11.0359000,0.0003990,-0.0003990,2023-03-15,2023-02,2023-03-15
+TOI-1811 b,TOI-1811,1,1,1,Transit,2023,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,3.71307650,0.00000170,-0.00000170,0,0.043890,0.000580,-0.000550,0,11.142,0.280,-0.258,0,0.994,0.025,-0.023,0,308.92921,24.15496,-24.79062,0,0.97200,0.07600,-0.07800,0,Mass,0.052000,0.062000,-0.037000,0,,,,,962,8,-8,0,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,,4766.00,52.00,-54.00,0,0.77,0.02,-0.02,0,0.82,0.03,-0.03,0,0.306,0.076,-0.077,0,[Fe/H],4.58,0.02,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,12h35m41.37s,188.9223576,+27d12m51.76s,27.2143766,128.2300000,0.7110000,-0.7040000,11.9660000,0.0570000,-0.0570000,9.6430000,0.0250000,-0.0250000,11.7574000,0.0008810,-0.0008810,2023-03-15,2023-02,2023-03-15
+TOI-1601 b,TOI-1601,1,1,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,5.33175100,0.00001100,-0.00001100,0,0.068640,0.000790,-0.000750,0,13.888,0.516,-0.437,0,1.239,0.046,-0.039,0,314.65170,34.96130,-34.96130,0,0.99000,0.11000,-0.11000,0,Mass,0.036000,0.044000,-0.026000,0,,,,,1619,24,-23,0,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,,5948.00,87.00,-89.00,0,2.19,0.07,-0.06,0,1.52,0.05,-0.05,0,0.329,0.073,-0.075,0,[Fe/H],3.94,0.02,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,02h33m26.78s,38.3615690,+41d00m48.36s,41.0134321,336.6080000,8.3890000,-7.9980000,10.6600000,0.0060000,-0.0060000,9.1910000,0.0140000,-0.0140000,10.5276000,0.0003880,-0.0003880,2021-02-25,2021-04,2021-03-04
+TOI-1333 b,TOI-1333,1,2,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,4.72021900,0.00001100,-0.00001100,0,0.062600,0.001100,-0.001200,0,15.648,0.628,-0.605,0,1.396,0.056,-0.054,0,753.25710,76.27920,-76.27920,0,2.37000,0.24000,-0.24000,0,Mass,0.073000,0.092000,-0.052000,0,,,,,1679,35,-34,0,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,,6274.00,97.00,-97.00,0,1.93,0.06,-0.06,0,1.46,0.08,-0.08,0,0.119,0.078,-0.077,0,[Fe/H],4.03,0.03,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,21h40m03.49s,325.0145363,+48d24m24.36s,48.4067674,200.4920000,1.2020000,-1.1880000,9.4380000,0.0030000,-0.0030000,8.2720000,0.0240000,-0.0240000,9.3503900,0.0002130,-0.0002130,2021-02-25,2021-04,2021-03-04
+TOI-2152 A b,TOI-2152,1,3,1,Transit,2023,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,3.37735120,0.00000600,-0.00000610,0,0.050640,0.000930,-0.001100,0,14.359,0.560,-0.516,0,1.281,0.050,-0.046,0,899.45439,120.77479,-117.59651,0,2.83000,0.38000,-0.37000,0,Mass,0.057000,0.068000,-0.040000,0,,,,,1802,60,-54,0,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,F4 V,6630.00,300.00,-290.00,0,1.61,0.06,-0.05,0,1.52,0.09,-0.10,0,0.282,0.075,-0.079,0,[Fe/H],4.21,0.04,-0.05,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,01h45m21.35s,26.3389717,+77d47m24.44s,77.7901231,303.0060000,3.1100000,-3.0490000,11.4360000,0.0160000,-0.0160000,9.5970000,0.0240000,-0.0240000,11.2407000,0.0004460,-0.0004460,2023-03-15,2023-02,2023-03-15
+TOI-2025 b,TOI-2025,1,1,1,Transit,2022,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,8.87209820,0.00000770,-0.00000770,0,0.089200,0.001800,-0.002300,0,11.893,0.370,-0.347,0,1.061,0.033,-0.031,0,1144.18227,104.88337,-104.88337,0,3.60000,0.33000,-0.33000,0,Mass,0.394000,0.035000,-0.038000,0,,,,,1166,18,-16,0,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,,5977.00,79.00,-78.00,0,1.46,0.04,-0.04,0,1.20,0.07,-0.09,0,0.150,0.110,-0.100,0,[Fe/H],4.19,0.04,-0.04,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,18h51m10.86s,282.7952558,+82d14m43.49s,82.2454143,335.9850000,2.4340000,-2.4000000,11.5990000,0.0210000,-0.0210000,10.0100000,0.0210000,-0.0210000,11.3637000,0.0002900,-0.0002900,2023-03-15,2023-02,2023-03-15
+TOI-2497 b,TOI-2497,1,1,1,Transit,2023,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,10.65566900,0.00003800,-0.00003800,0,0.116600,0.001800,-0.001800,0,11.142,0.616,-0.549,0,0.994,0.055,-0.049,0,1531.93292,130.30965,-130.30965,0,4.82000,0.41000,-0.41000,0,Mass,0.195000,0.043000,-0.040000,0,,,,,1595,45,-42,0,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,,7360.00,320.00,-300.00,0,2.36,0.12,-0.11,0,1.86,0.09,-0.08,0,0.094,0.076,-0.072,0,[Fe/H],3.96,0.05,-0.05,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,06h00m15.02s,90.0625878,+11d53m02.61s,11.8840577,285.2890000,3.5640000,-3.4790000,9.5470000,0.0040000,-0.0040000,8.4860000,0.0160000,-0.0160000,9.4724400,0.0002620,-0.0002620,2023-03-15,2023-02,2023-03-15
+TOI-2145 b,TOI-2145,1,1,1,Transit,2023,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,10.26075000,0.00083000,-0.00082000,0,0.110800,0.001200,-0.001600,0,11.982,0.325,-0.314,0,1.069,0.029,-0.028,0,1671.77742,120.77479,-117.59651,0,5.26000,0.38000,-0.37000,0,Mass,0.208000,0.034000,-0.047000,0,,,,,1484,16,-14,0,0,<a refstr=RODRIGUEZ_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp..609R/abstract target=ref>Rodriguez et al. 2023</a>,,6177.00,67.00,-67.00,0,2.75,0.07,-0.06,0,1.72,0.06,-0.07,0,0.247,0.074,-0.072,0,[Fe/H],3.79,0.02,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,17h35m01.94s,263.7580753,+40d41m42.15s,40.6950428,224.7310000,1.1020000,-1.0920000,9.0700000,0.0300000,-0.0300000,7.7610000,0.0310000,-0.0310000,8.9365100,0.0002880,-0.0002880,2023-03-15,2023-02,2023-03-15
+TOI-172 b,TOI-172,1,1,1,Transit,2019,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....157..191R/abstract target=ref>Rodriguez et al. 2019</a>,9.47725000,0.00064000,-0.00079000,0,0.091400,0.001700,-0.001700,0,10.817,0.359,-0.325,0,0.965,0.032,-0.029,0,1722.63860,69.92260,-63.56600,0,5.42000,0.22000,-0.20000,0,Mass,0.380600,0.009300,-0.009000,0,299.00,19.00,-16.00,0,1198,18,-17,0,0,<a refstr=RODRIGUEZ_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....157..191R/abstract target=ref>Rodriguez et al. 2019</a>,,5645.00,50.00,-50.00,0,1.78,0.05,-0.04,0,1.13,0.07,-0.06,0,0.148,0.079,-0.080,0,[Fe/H],3.99,0.03,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,21h06m31.65s,316.6318791,-26d41m34.32s,-26.6928654,342.8310000,7.3710000,-7.0710000,11.2990000,0.0200000,-0.0200000,9.7220000,0.0210000,-0.0210000,11.1927000,0.0006230,-0.0006230,2019-03-29,2019-05,2019-03-28
+TOI-628 b,TOI-628,1,1,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,3.40956750,0.00000700,-0.00000690,0,0.048600,0.000800,-0.000940,0,11.882,0.460,-0.381,0,1.060,0.041,-0.034,0,2011.86390,92.17070,-98.52730,0,6.33000,0.29000,-0.31000,0,Mass,0.072000,0.021000,-0.023000,0,,,,,1586,52,-40,0,0,<a refstr=RODRIGUEZ_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021AJ....161..194R/abstract target=ref>Rodriguez et al. 2021</a>,,6250.00,220.00,-190.00,0,1.34,0.05,-0.04,0,1.31,0.07,-0.07,0,0.258,0.078,-0.080,0,[Fe/H],4.30,0.03,-0.04,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,06h37m03.13s,99.2630608,+01d46m03.18s,1.7675497,178.6800000,3.0400000,-2.9420000,10.1120000,0.0060000,-0.0060000,8.8110000,0.0190000,-0.0190000,10.0579000,0.0004940,-0.0004940,2021-02-25,2021-04,2021-03-04

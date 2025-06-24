@@ -1,0 +1,108 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Wed Jul  3 10:27:31 2024
+#
+# User preference: *
+#
+# CONSTRAINT:  where (default_flag = 1
+# CONSTRAINT:  and disc_facility like '%TESS%'
+# CONSTRAINT:  and pl_controv_flag = 0
+# CONSTRAINT:  and pl_refname like '%ikwut-ukwa%'
+# CONSTRAINT:  and pl_bmassjstr > 0.25
+# CONSTRAINT:  and pl_orbeccenstr not null)
+#
+# COLUMN pl_name:        Planet Name
+# COLUMN hostname:       Host Name
+# COLUMN default_flag:   Default Parameter Set
+# COLUMN sy_snum:        Number of Stars
+# COLUMN sy_pnum:        Number of Planets
+# COLUMN discoverymethod: Discovery Method
+# COLUMN disc_year:      Discovery Year
+# COLUMN disc_facility:  Discovery Facility
+# COLUMN soltype:        Solution Type
+# COLUMN pl_controv_flag: Controversial Flag
+# COLUMN pl_refname:     Planetary Parameter Reference
+# COLUMN pl_orbper:      Orbital Period [days]
+# COLUMN pl_orbpererr1:  Orbital Period Upper Unc. [days]
+# COLUMN pl_orbpererr2:  Orbital Period Lower Unc. [days]
+# COLUMN pl_orbperlim:   Orbital Period Limit Flag
+# COLUMN pl_orbsmax:     Orbit Semi-Major Axis [au]
+# COLUMN pl_orbsmaxerr1: Orbit Semi-Major Axis Upper Unc. [au]
+# COLUMN pl_orbsmaxerr2: Orbit Semi-Major Axis Lower Unc. [au]
+# COLUMN pl_orbsmaxlim:  Orbit Semi-Major Axis Limit Flag
+# COLUMN pl_rade:        Planet Radius [Earth Radius]
+# COLUMN pl_radeerr1:    Planet Radius Upper Unc. [Earth Radius]
+# COLUMN pl_radeerr2:    Planet Radius Lower Unc. [Earth Radius]
+# COLUMN pl_radelim:     Planet Radius Limit Flag
+# COLUMN pl_radj:        Planet Radius [Jupiter Radius]
+# COLUMN pl_radjerr1:    Planet Radius Upper Unc. [Jupiter Radius]
+# COLUMN pl_radjerr2:    Planet Radius Lower Unc. [Jupiter Radius]
+# COLUMN pl_radjlim:     Planet Radius Limit Flag
+# COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
+# COLUMN pl_bmasseerr1:  Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc.
+# COLUMN pl_bmasseerr2:  Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc.
+# COLUMN pl_bmasselim:   Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag
+# COLUMN pl_bmassj:      Planet Mass or Mass*sin(i) [Jupiter Mass]
+# COLUMN pl_bmassjerr1:  Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc.
+# COLUMN pl_bmassjerr2:  Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc.
+# COLUMN pl_bmassjlim:   Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag
+# COLUMN pl_bmassprov:   Planet Mass or Mass*sin(i) Provenance
+# COLUMN pl_orbeccen:    Eccentricity
+# COLUMN pl_orbeccenerr1: Eccentricity Upper Unc.
+# COLUMN pl_orbeccenerr2: Eccentricity Lower Unc.
+# COLUMN pl_orbeccenlim: Eccentricity Limit Flag
+# COLUMN pl_insol:       Insolation Flux [Earth Flux]
+# COLUMN pl_insolerr1:   Insolation Flux Upper Unc. [Earth Flux]
+# COLUMN pl_insolerr2:   Insolation Flux Lower Unc. [Earth Flux]
+# COLUMN pl_insollim:    Insolation Flux Limit Flag
+# COLUMN pl_eqt:         Equilibrium Temperature [K]
+# COLUMN pl_eqterr1:     Equilibrium Temperature Upper Unc. [K]
+# COLUMN pl_eqterr2:     Equilibrium Temperature Lower Unc. [K]
+# COLUMN pl_eqtlim:      Equilibrium Temperature Limit Flag
+# COLUMN ttv_flag:       Data show Transit Timing Variations
+# COLUMN st_refname:     Stellar Parameter Reference
+# COLUMN st_spectype:    Spectral Type
+# COLUMN st_teff:        Stellar Effective Temperature [K]
+# COLUMN st_tefferr1:    Stellar Effective Temperature Upper Unc. [K]
+# COLUMN st_tefferr2:    Stellar Effective Temperature Lower Unc. [K]
+# COLUMN st_tefflim:     Stellar Effective Temperature Limit Flag
+# COLUMN st_rad:         Stellar Radius [Solar Radius]
+# COLUMN st_raderr1:     Stellar Radius Upper Unc. [Solar Radius]
+# COLUMN st_raderr2:     Stellar Radius Lower Unc. [Solar Radius]
+# COLUMN st_radlim:      Stellar Radius Limit Flag
+# COLUMN st_mass:        Stellar Mass [Solar mass]
+# COLUMN st_masserr1:    Stellar Mass Upper Unc. [Solar mass]
+# COLUMN st_masserr2:    Stellar Mass Lower Unc. [Solar mass]
+# COLUMN st_masslim:     Stellar Mass Limit Flag
+# COLUMN st_met:         Stellar Metallicity [dex]
+# COLUMN st_meterr1:     Stellar Metallicity Upper Unc. [dex]
+# COLUMN st_meterr2:     Stellar Metallicity Lower Unc. [dex]
+# COLUMN st_metlim:      Stellar Metallicity Limit Flag
+# COLUMN st_metratio:    Stellar Metallicity Ratio
+# COLUMN st_logg:        Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN st_loggerr1:    Stellar Surface Gravity Upper Unc. [log10(cm/s**2)]
+# COLUMN st_loggerr2:    Stellar Surface Gravity Lower Unc. [log10(cm/s**2)]
+# COLUMN st_logglim:     Stellar Surface Gravity Limit Flag
+# COLUMN sy_refname:     System Parameter Reference
+# COLUMN rastr:          RA [sexagesimal]
+# COLUMN ra:             RA [deg]
+# COLUMN decstr:         Dec [sexagesimal]
+# COLUMN dec:            Dec [deg]
+# COLUMN sy_dist:        Distance [pc]
+# COLUMN sy_disterr1:    Distance [pc] Upper Unc
+# COLUMN sy_disterr2:    Distance [pc] Lower Unc
+# COLUMN sy_vmag:        V (Johnson) Magnitude
+# COLUMN sy_vmagerr1:    V (Johnson) Magnitude Upper Unc
+# COLUMN sy_vmagerr2:    V (Johnson) Magnitude Lower Unc
+# COLUMN sy_kmag:        Ks (2MASS) Magnitude
+# COLUMN sy_kmagerr1:    Ks (2MASS) Magnitude Upper Unc
+# COLUMN sy_kmagerr2:    Ks (2MASS) Magnitude Lower Unc
+# COLUMN sy_gaiamag:     Gaia Magnitude
+# COLUMN sy_gaiamagerr1: Gaia Magnitude Upper Unc
+# COLUMN sy_gaiamagerr2: Gaia Magnitude Lower Unc
+# COLUMN rowupdate:      Date of Last Update
+# COLUMN pl_pubdate:     Planetary Parameter Reference Publication Date
+# COLUMN releasedate:    Release Date
+#
+pl_name,hostname,default_flag,sy_snum,sy_pnum,discoverymethod,disc_year,disc_facility,soltype,pl_controv_flag,pl_refname,pl_orbper,pl_orbpererr1,pl_orbpererr2,pl_orbperlim,pl_orbsmax,pl_orbsmaxerr1,pl_orbsmaxerr2,pl_orbsmaxlim,pl_rade,pl_radeerr1,pl_radeerr2,pl_radelim,pl_radj,pl_radjerr1,pl_radjerr2,pl_radjlim,pl_bmasse,pl_bmasseerr1,pl_bmasseerr2,pl_bmasselim,pl_bmassj,pl_bmassjerr1,pl_bmassjerr2,pl_bmassjlim,pl_bmassprov,pl_orbeccen,pl_orbeccenerr1,pl_orbeccenerr2,pl_orbeccenlim,pl_insol,pl_insolerr1,pl_insolerr2,pl_insollim,pl_eqt,pl_eqterr1,pl_eqterr2,pl_eqtlim,ttv_flag,st_refname,st_spectype,st_teff,st_tefferr1,st_tefferr2,st_tefflim,st_rad,st_raderr1,st_raderr2,st_radlim,st_mass,st_masserr1,st_masserr2,st_masslim,st_met,st_meterr1,st_meterr2,st_metlim,st_metratio,st_logg,st_loggerr1,st_loggerr2,st_logglim,sy_refname,rastr,ra,decstr,dec,sy_dist,sy_disterr1,sy_disterr2,sy_vmag,sy_vmagerr1,sy_vmagerr2,sy_kmag,sy_kmagerr1,sy_kmagerr2,sy_gaiamag,sy_gaiamagerr1,sy_gaiamagerr2,rowupdate,pl_pubdate,releasedate
+TOI-558 b,TOI-558,1,1,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=IKWUT_UKWA_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022AJ....163....9I/abstract target=ref>Ikwut-Ukwa et al. 2022</a>,14.57407100,0.00002600,-0.00002600,0,0.129100,0.002000,-0.002100,0,12.173,0.460,-0.426,0,1.086,0.041,-0.038,0,1147.36055,47.67426,-47.67426,0,3.61000,0.15000,-0.15000,0,Mass,0.298000,0.022000,-0.020000,0,,,,,1061,13,-12,0,0,<a refstr=IKWUT_UKWA_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022AJ....163....9I/abstract target=ref>Ikwut-Ukwa et al. 2022</a>,F V,6466.00,95.00,-93.00,0,1.50,0.04,-0.04,0,1.35,0.06,-0.07,0,-0.004,0.059,-0.055,0,[Fe/H],4.22,0.03,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,02h49m09.96s,42.2915093,-58d01m28.86s,-58.0246828,402.6300000,3.8550000,-3.7840000,11.2330000,0.0130000,-0.0130000,10.2620000,0.0230000,-0.0230000,11.3253000,0.0005930,-0.0005930,2022-03-28,2022-01,2022-03-28
+TOI-559 b,TOI-559,1,1,1,Transit,2021,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed,0,<a refstr=IKWUT_UKWA_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022AJ....163....9I/abstract target=ref>Ikwut-Ukwa et al. 2022</a>,6.98390950,0.00000510,-0.00000510,0,0.072300,0.001300,-0.001300,0,12.229,0.314,-0.280,0,1.091,0.028,-0.025,0,1910.14873,76.27882,-73.10053,0,6.01000,0.24000,-0.23000,0,Mass,0.151000,0.012000,-0.011000,0,,,,,1180,18,-16,0,0,<a refstr=IKWUT_UKWA_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022AJ....163....9I/abstract target=ref>Ikwut-Ukwa et al. 2022</a>,G V,5925.00,85.00,-76.00,0,1.23,0.03,-0.03,0,1.03,0.06,-0.06,0,-0.069,0.065,-0.079,0,[Fe/H],4.27,0.02,-0.03,0,<a refstr=STASSUN_ET_AL__2019 href=https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S/abstract target=ref>TICv8</a>,03h07m16.47s,46.8186159,-31d09m46.78s,-31.1629951,233.2660000,1.5420000,-1.5210000,11.0910000,0.0070000,-0.0070000,9.6380000,0.0240000,-0.0240000,10.9777000,0.0004050,-0.0004050,2022-03-28,2022-01,2022-03-28
